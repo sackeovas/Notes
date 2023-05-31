@@ -1,0 +1,22 @@
+.noteClass {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    margin-top: 5px;
+}
+#newNoteButton {
+    position: fixed;
+    left: 1400px;
+    top: 5px;
+    width: 78px;
+    height: 33px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+body {
+    background-color: rgb(243, 210, 217);
+}
