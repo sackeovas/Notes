@@ -1,9 +1,14 @@
-.noteClass {
-    width: 250px;
-    height: 300px;
+.note {
+    width: 350px;
+    height: 400px;
     background-color: white;
     position: relative;
-    margin-top: 5px;
+    margin-top: 0px;
+    border-radius: 12px;
+    resize: none;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #newNoteButton {
     position: fixed;
@@ -14,7 +19,21 @@
     background-color: white;
     border-radius: 5px;
     font-weight: bold;
+}
 
+
+.tools {
+    width: 100%;
+    background-color: rgb(243, 210, 217);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+    size: 150%;
+}
+
+.tools i {
+    padding: 5px;
 }
 
 body {
